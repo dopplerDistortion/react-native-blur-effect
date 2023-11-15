@@ -5,7 +5,6 @@
   "main": "dist/BlurView/index.js",
   "types": "dist/BlurView/index.d.ts",
   "scripts": {
-    "postinstall": "npx patch-package",
     "android": "react-native run-android --appIdSuffix=local",
     "android-clean": "cd android && ./gradlew clean && cd ../",
     "ios": "react-native run-ios",
